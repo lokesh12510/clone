@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="sticky-header transparent">
+        <nav class="navbar navbar-expand-lg py-lg-3">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo-white.png" alt="logo" width="140" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse"
+                    aria-controls="navbar-collapse" aria-expanded="false" aria-label="toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse px-3 px-lg-0" id="navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item me-3 dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Product</a>
+                            <ul class="dropdown-menu fade-down">
+                                <li><a class="dropdown-item" href="mobile-app.html">Mobile App Ordering</a></li>
+                                <li><a class="dropdown-item" href="delivery-app.html">Delivery App</a></li>
+                                <li><a class="dropdown-item" href="admin-dashboard.html">Admin Dashboard</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3"><a class="nav-link" href="feature.html">Features</a></li>
+                        <li class="nav-item me-3"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                        <li class="nav-item me-3 dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Resources</a>
+                            <ul class="dropdown-menu fade-down">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Demo</a></li>
+                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="">Login</a>
+                        </li>
+                        <li class="nav-item my-3 my-lg-0">
+                            <a class="btn btn-primary" href="">Start Free Trial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner-section-start -->
+    <section class="pad-0">
+        <div class="landing-banner-section home-banner  content-display">
+            <div class="container banner-content">
+                <h1 class="title"><small>ytock</small></h1>
+                <h2 class="banner-header mb-2 text-light">Boost Your Restaurant Sales With Our
+                    Online <br> Food Ordering System.</h2>
+                <p>Grow your restaurant business with our online food ordering system meeting your demands in a single
+                    platform.</p>
+                <button class="btn btn-primary my-3">Start Free Trial</button>
+                <div class="point-widget py-2">
+                    <div class="row justify-content-center">
+                        <li class="col-auto">No credit card required</li>
+                        <li class="col-auto">Free for 14 days</li>
+                        <li class="col-auto">Easy setup</li>
+                    </div>
+                </div>
+            </div><!-- /container -->
+        </div>
+    </section>
+    <!-- banner-section-end -->
+
+    <!-- Top-section-start -->
+    <section class="pt-60 text-center">
+        <h3>
+            Admin Panel
+        </h3>
+        <p>Admin can access the total no of customers, orders placed, orders delivered, customer contact details, and
+
+            delivery staff members. Now you can determine a <br>complete statistics report of your restaurant
+            performance.
+        </p>
+    </section>
+    <!-- Top-section-end -->
+
+    <!-- Toggle-section-start  -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-lg-between">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h3 class="mb-3">Customize Settings</h3>
+                    <div class="nav flex-column nav-pills admin-tab" id="tab" role="tablist"
+                        aria-orientation="vertical">
+                        <div class="nav-link active mb-3" id="home-tab" data-bs-toggle="pill" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="    " aria-selected="true">
+                            <div class="btn-tab">
+                                <h4 class="lead">Loyalty Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="profile-tab" data-bs-toggle="pill" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">SMS Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="messages-tab" data-bs-toggle="pill" data-bs-target="#messages"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">Payment Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="settings-tab" data-bs-toggle="pill" data-bs-target="#settings"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">Social Media Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 order-2">
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane admin-img text-center fade" id="home" role="tabpanel"
+                            aria-labelledby="home-tab">
+                            <img class="" src="https://www.ytock.com/assets/img/loyalty_settings.webp" width="526"
+                                height="368" loading="lazy" alt="Loyalty Settings">
+                        </div>
+                        <div class="tab-pane admin-img text-center fade" id="profile" role="tabpanel"
+                            aria-labelledby="profile-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/sms_settings.webp" width="526" height="368"
+                                loading="lazy" alt="SMS Settings"></div>
+                        <div class="tab-pane admin-img text-center fade" id="messages" role="tabpanel"
+                            aria-labelledby="messages-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/payment_settings.webp" width="526" height="403"
+                                loading="lazy" alt="Payment Settings"></div>
+                        <div class="tab-pane admin-img text-center fade active show" id="settings" role="tabpanel"
+                            aria-labelledby="settings-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/social_media_settings.webp" width="526"
+                                height="368" loading="lazy" alt="Social Media Settings"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Toggle-section-end -->
+
+    <!-- Toggle-section-start  -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-lg-between">
+                <div class="col-lg-5 mb-5 mb-lg-0 order-lg-2">
+                    <h3 class="mb-3">Transform Your Restaurant Menu Delicious</h3>
+                    <div class="nav flex-column nav-pills admin-tab" id="tab" role="tablist"
+                        aria-orientation="vertical">
+                        <div class="nav-link active mb-3" id="one-tab" data-bs-toggle="pill" data-bs-target="#one"
+                            type="button" role="tab" aria-controls="one" aria-selected="true">
+                            <div class="btn-tab">
+                                <h4 class="lead">Loyalty Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="two-tab" data-bs-toggle="pill" data-bs-target="#two"
+                            type="button" role="tab" aria-controls="two" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">SMS Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="three-tab" data-bs-toggle="pill" data-bs-target="#three"
+                            type="button" role="tab" aria-controls="three" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">Payment Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                        <div class="nav-link mb-3" id="four-tab" data-bs-toggle="pill" data-bs-target="#four"
+                            type="button" role="tab" aria-controls="four" aria-selected="false">
+                            <div class="btn-tab">
+                                <h4 class="lead mb-2">Social Media Settings</h4>
+                            </div>
+                            <div class="nav-content my-4">
+                                <p>Admin can set minimum target points, active/deactivate loyalty rewards and coupon
+                                    status. Fix the offer percentage for the menu with simple clicks</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 order-2 order-lg-1">
+                    <div class="tab-content" id="tabContent">
+                        <div class="tab-pane admin-img text-center fade" id="one" role="tabpanel"
+                            aria-labelledby="one-tab">
+                            <img class="" src="https://www.ytock.com/assets/img/loyalty_settings.webp" width="526"
+                                height="368" loading="lazy" alt="Loyalty Settings">
+                        </div>
+                        <div class="tab-pane admin-img text-center fade" id="two" role="tabpanel"
+                            aria-labelledby="two-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/sms_settings.webp" width="526" height="368"
+                                loading="lazy" alt="SMS Settings"></div>
+                        <div class="tab-pane admin-img text-center fade" id="three" role="tabpanel"
+                            aria-labelledby="three-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/payment_settings.webp" width="526" height="403"
+                                loading="lazy" alt="Payment Settings"></div>
+                        <div class="tab-pane admin-img text-center fade active show" id="four" role="tabpanel"
+                            aria-labelledby="four-tab"><img class=""
+                                src="https://www.ytock.com/assets/img/social_media_settings.webp" width="526"
+                                height="368" loading="lazy" alt="Social Media Settings"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Toggle-section-end -->
+
+    <!-- Bottom-section-start -->
+    <section>
+        <div class="container text-center">
+            <h2>Get connected with the new cloud-based food ordering <br>
+                software for the restaurant.</h2>
+            <p>More customers, More Orders, More revenue</p>
+            <button class="btn btn-primary my-3">Start Free Trial</button>
+            <div class="point-widget py-2">
+                <div class="row justify-content-center">
+                    <li class="col-auto">No credit card required</li>
+                    <li class="col-auto">Free for 14 days</li>
+                    <li class="col-auto">Easy setup</li>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bottom-section-end -->
+
+    <!-- Footer-section-start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-logo">
+                        <img src="assets/img/logo-white.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="unstyled-list mb-5">
+                        <h4 class="">Company</h4>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="unstyled-list mb-5">
+                        <h4 class="">Product</h4>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="unstyled-list mb-5">
+                        <h4 class="">Resources</h4>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <ul class="unstyled-list mb-5">
+                        <h4 class="">Contact</h4>
+                        <li> <a href="">Email: lokeshkrishna50@gmail.com</a></li>
+                        <li><a href="">Phone:8098174100</a></li>
+                        <li><a class="app-link" href=""><img src="assets/img/customer-app.webp" alt=""></a></li>
+                        <li><a class="app-link" href=""><img src="assets/img/driver-app.webp" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <div class="copyrights">
+                        <p>@2020 Ytock</p>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <div class="terms">
+                        <p><span><a href="">Privacy Policy</a></span> <span>|</span> <span><a href="">Terms &
+                                    Conditions</a></span> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer-section-end -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
